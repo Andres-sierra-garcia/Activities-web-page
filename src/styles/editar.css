@@ -1,0 +1,16 @@
+.q-pa-md{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+}
+
+
+.q-form{
+    background-color: #ffafcc;
+    padding: 10px;
+    border-radius: 7px;
+    width: 80%;
+    margin: 0%;
+}

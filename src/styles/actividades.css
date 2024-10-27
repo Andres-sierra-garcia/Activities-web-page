@@ -1,0 +1,60 @@
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+p{
+    margin: 0%;
+}
+ 
+#actividades{
+    width: 70%;
+    min-height: 350px;
+}
+
+#optionBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+#btnComplete{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px !important;
+    height: 20px !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.btn-completed {
+    background-color: green;
+}
