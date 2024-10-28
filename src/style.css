@@ -37,3 +37,16 @@
     width: 150px !important;
   }
 
+  @media(max-width:560px){
+    h1{
+        font-size: 20px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+   .q-toolbar{
+    gap: 10px;
+   }
+}

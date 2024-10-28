@@ -40,7 +40,6 @@
 
 <style src="../styles/actividades.css" scoped></style>
 <script setup>
-import { Padding, Style } from '@mui/icons-material';
 import { useMainStore } from '../stores/store.js'
 import { ref } from 'vue'
 const mainStore = useMainStore()

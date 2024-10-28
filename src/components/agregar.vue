@@ -10,7 +10,8 @@
   <main>
     <div class="q-pa-md">
 
-      <q-form @submit="addActivity(descriptionActivity, date)" class="q-gutter-md">
+      <q-form @submit="addActivity(descriptionActivity, date)"
+       class="q-gutter-md">
         <q-input type="textarea" filled v-model="descriptionActivity" label="descripcion de la actividad " lazy-rules />
 
         <q-input filled type="date" v-model="date" label="Your age *" lazy-rules />
@@ -34,7 +35,6 @@
 <style src="../styles//agregar.css" scoped></style>
 
 <script setup>
-import { useQuasar } from 'quasar'
 import { ref } from 'vue'
 import {useMainStore} from '../stores/store.js'
 const mainStore = useMainStore()
